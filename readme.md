@@ -14,3 +14,6 @@ source /opt/ros/kinetic/setup.bash
 3. Bringup the robot
 
 	roslaunch turtlebot3_bringup turtlebot3_robot.launch
+
+4. test
+

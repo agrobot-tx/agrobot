@@ -11,6 +11,14 @@ robot = moveit_commander.RobotCommander()
 scene = moveit_commander.PlanningSceneInterface()
 group = moveit_commander.MoveGroupCommander("arm")
 
+# clear constraints
+group.clear_path_constraints()
+group.clear_trajectory_constraints()
+
+# reset joint values
+group.forget_joint_values()
+group.get_current_joint_values()
+
 pt = geometry_msgs.msg.Pose()
 # pt.orientation.w = 1.0
 pt.position.x = -0.073

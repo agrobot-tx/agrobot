@@ -13,16 +13,15 @@ group = moveit_commander.MoveGroupCommander("arm")
 
 # clear constraints
 group.clear_path_constraints()
-group.clear_trajectory_constraints()
 group.clear_pose_targets()
 
-# reset joint values
-# group.forget_joint_values()
-# group.get_current_joint_values()
-
-# Setting only a goal for the lowest joint
+# Setting only a goal for the lowest joint and printing
 group_variable_values = group.get_current_joint_values()
 print "============ Joint values: ", group_variable_values
+print "============ Active Joints: ", group.get_active_joints()
+print "============ Goal joint tolerances: ", group.get_goal_joint_tolerance()
+print "============ Interface description: ", group.get_interface_description()
+print "============ Known constraints: ", group.get_known_constraints()
 group_variable_values[0] = 1.0
 group.set_joint_value_target(group_variable_values)
 

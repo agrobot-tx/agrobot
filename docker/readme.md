@@ -8,8 +8,8 @@
 # To run
 1. go to the docker folder in your terminal `cd docker`
 2. build the docker image `docker build . -t open_manipulator`
-3. Run the GUI connector with rocker with:
-**Nvidia** `rocker --nvidia --x11 open_manipulator`
+3. Run the GUI connector with rocker with:\
+**Nvidia** `rocker --nvidia --x11 open_manipulator`\
 **other** `rocker --devices /dev/dri/card0 --x11 open_manipulator`
 
 # Working with single command line

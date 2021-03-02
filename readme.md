@@ -1,6 +1,6 @@
 # for each terminal
-source ~/catkin_ws/devel/setup.bash
-source /opt/ros/kinetic/setup.bash
+`source ~/catkin_ws/devel/setup.bash` \
+`source /opt/ros/kinetic/setup.bash`
 
 # bringup procedure
 1. run roscore

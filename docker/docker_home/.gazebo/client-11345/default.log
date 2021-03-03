@@ -1,0 +1,18 @@
+Gazebo multi-robot simulator, version 7.0.0
+Copyright (C) 2012-2016 Open Source Robotics Foundation.
+Released under the Apache 2 License.
+http://gazebosim.org
+
+
+(1605473552 617642382) [Msg] Waiting for master.
+(1605473552 622819683) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1605473552 622940443) [Msg] Publicized address: 172.17.0.2
+(1605473552 623359092) Loaded .ini file from: "/root/.gazebo/gui.ini"
+(1605473554 314718818) [Err] [InsertModelWidget.cc:298] Missing model.config for model "/root/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace"
+(1605473554 314820927) model.config file is missing in directory["/root/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace"]
+(1605473554 314899117) [Err] [InsertModelWidget.cc:298] Missing model.config for model "/root/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace_2020"
+(1605473554 315002477) model.config file is missing in directory["/root/catkin_ws/src/turtlebot3_simulations/turtlebot3_gazebo/models/turtlebot3_autorace_2020"]
+(1605473554 448228920) [Wrn] [Event.cc:87] Warning: Deleteing a connection right after creation. Make sure to save the ConnectionPtr from a Connect call
+(1605473554 734285116) No spacenav daemon found. Spacenav functionality is disabled
+(1605473557 314669681) [Err] [ModelDatabase.cc:389] Unable to parse model.config for model[http://gazebosim.org/models/bin_4_dropping_task]
+(1605473598 573755449) [Wrn] [Publisher.cc:140] Queue limit reached for topic /gazebo/default/user_camera/pose, deleting message. This warning is printed only once.

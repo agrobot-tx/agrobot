@@ -1,7 +1,7 @@
 # Pre-requisites
 - Make sure you have `Ubuntu 16.04LTS` installed. \
 or 
-- Use the Docker setup: https://github.com/agrobot-tx/agrobot/, if you decided to use the docker enviroment, you can skip steps 1 - x.
+- Use the Docker setup: https://github.com/agrobot-tx/agrobot/tree/main/docker, if you decided to use the docker enviroment, you can skip steps 1 - x.
 
 # PC Setup
 (only when not using Docker setup)
@@ -33,7 +33,7 @@ or
  `echo "export TURTLEBOT3_MODEL=waffle_pi" >> ~/.bashrc` \
  `source ~/.bashrc`
  
- 5. install the gazebo simulator (if not already installed. Check with trying to run `gazebo` to make sure: \
+ 5. install the gazebo simulator (if not already installed. Check with trying to run `gazebo` to make sure): \
  `curl -sSL http://get.gazebosim.org | sh`
  
  6. install the simulation package for ROS1: \

@@ -13,16 +13,16 @@ group = moveit_commander.MoveGroupCommander("arm")
 
 # clear constraints
 group.clear_path_constraints()
-group.clear_trajectory_constraints()
+group.clear_pose_targets()
 
-pt = geometry_msgs.msg.Pose()
-# pt.orientation.w = 1.0
-pt.position.x = -0.073
-pt.position.y = -0.063
-pt.position.z = 0.491
+group_variable_values = group.get_current_joint_values()
 
-group.set_position_target([pt.position.x, pt.position.y, pt.position.z])
-plan = group.go(wait=True)
+group_variable_values[5] = 0.02
+group.set_joint_value_target(group_variable_values)
+
+plan2 = group.plan()
+
+group.execute(plan2, wait=True)
 
 # Calling `stop()` ensures that there is no residual movement
 group.stop()

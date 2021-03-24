@@ -4,9 +4,14 @@
 2. Make sure that docker is installed (https://docs.docker.com/engine/install/ubuntu/), and you are able to run docker without sudo priveleges (https://docs.docker.com/engine/install/linux-postinstall/).
 
 # To run
+## from the dockerhub image
+1. Run the docker container `docker run -it --rm -p 6080:80 vinsento/ros_kinetic_vcn_agrobot`
+2. Access the environment via your browser on `http://localhost:6080/`
+
+## Building from source (only if you want to make changes to the docker build)
 1. go to the docker folder in your terminal `cd docker`
-2. build the docker image `docker build . -t open_manipulator`
-3. Run the docker container `docker run -it --rm -p 6080:80 open_manipulator`
+2. build the docker image `docker build . -t ros_kinetic_vcn_agrobot`
+3. Run the docker container `docker run -it --rm -p 6080:80 ros_kinetic_vcn_agrobot`
 4. Access the environment via your browser on `http://localhost:6080/`
 
 # Run the gazebo simulation
@@ -17,4 +22,4 @@
 5. launch GUI controller: `./launch_controller_gui.sh`
 
 # Working with single command line
-Because you run all in one terminal, make sure you type a `&` after each command, so for example: `roscore &`
+If you want to run all in one terminal, make sure you type a `&` after each command, so for example: `roscore &`

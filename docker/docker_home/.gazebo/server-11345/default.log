@@ -4,15 +4,7 @@ Released under the Apache 2 License.
 http://gazebosim.org
 
 
-(1605473552 614966493) [Msg] Waiting for master.
-(1605473552 622805653) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
-(1605473552 622933503) [Msg] Publicized address: 172.17.0.2
-(1605473554 301878455) Init world[default]
-(1605473554 859853877) applying Gaussian noise model with mean 0, stddev 0.01, bias 0
-(1605473554 873922605) [Wrn] [msgs.cc:1655] Conversion of sensor type[imu] not suppported.
-(1605473554 964607394) ODESliderJoint::SetAnchor not implemented.
-(1605473554 964643743) ODESliderJoint::SetAnchor not implemented.
-(1605473555 254293706) [Err] [Plugin.hh:165] Failed to load plugin libroboticsgroup_gazebo_mimic_joint_plugin.so: libroboticsgroup_gazebo_mimic_joint_plugin.so: cannot open shared object file: No such file or directory
-(1605473555 455856931) [Wrn] [msgs.cc:1655] Conversion of sensor type[imu] not suppported.
-(1605473555 884397955) ODESliderJoint::GetAnchor not implemented.
-(1605473555 884452755) ODESliderJoint::GetAnchor not implemented.
+(1615976883 673339400) [Msg] Waiting for master.
+(1615976883 681693700) [Msg] Connected to gazebo master @ http://127.0.0.1:11345
+(1615976883 681870300) [Msg] Publicized address: 172.17.0.2
+(1615976884 402316200) Init world[default]

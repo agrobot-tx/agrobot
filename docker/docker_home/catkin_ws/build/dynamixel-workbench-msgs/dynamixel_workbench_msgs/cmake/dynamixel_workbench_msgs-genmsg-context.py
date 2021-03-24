@@ -1,0 +1,11 @@
+# generated from genmsg/cmake/pkg-genmsg.context.in
+
+messages_str = "/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/AX.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/EX.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/MX.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/MX2.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/MX2Ext.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/MXExt.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/PRO.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/PROExt.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/RX.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/XH.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/XL.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/XL320.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/XM.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/XMExt.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/DynamixelState.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/DynamixelStateList.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/DynamixelInfo.msg;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg/DynamixelLoadInfo.msg"
+services_str = "/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/srv/GetDynamixelInfo.srv;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/srv/DynamixelCommand.srv"
+pkg_name = "dynamixel_workbench_msgs"
+dependencies_str = "std_msgs"
+langs = "gencpp;geneus;genlisp;gennodejs;genpy"
+dep_include_paths_str = "dynamixel_workbench_msgs;/mnt/catkin_ws/src/dynamixel-workbench-msgs/dynamixel_workbench_msgs/msg;std_msgs;/opt/ros/kinetic/share/std_msgs/cmake/../msg"
+PYTHON_EXECUTABLE = "/usr/bin/python2"
+package_has_static_sources = '' == 'TRUE'
+genmsg_check_deps_script = "/opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py"

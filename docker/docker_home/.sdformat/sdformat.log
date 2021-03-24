@@ -1,0 +1,12 @@
+Dbg [parser.cc:386] Converting a deprecated source[/usr/share/gazebo-7/worlds/empty.world].
+Dbg [Converter.cc:59] Version[1.5] to Version[1.6]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:386] Converting a deprecated source[/root/.gazebo/models/sun/model-1_2.sdf].
+Dbg [Converter.cc:59] Version[1.2] to Version[1.6]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]
+Dbg [parser.cc:386] Converting a deprecated source[/root/.gazebo/models/ground_plane/model-1_2.sdf].
+Dbg [Converter.cc:59] Version[1.2] to Version[1.6]
+  Please use the gz sdf tool to update your SDF files.
+    $ gz sdf -c [sdf_file]

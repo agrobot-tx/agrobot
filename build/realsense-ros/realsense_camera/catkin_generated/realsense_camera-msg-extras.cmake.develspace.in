@@ -1,2 +1,0 @@
-set(realsense_camera_MESSAGE_FILES "/home/nvidia/catkin_ws/src/realsense-ros/realsense_camera/msg/IMUInfo.msg")
-set(realsense_camera_SERVICE_FILES "/home/nvidia/catkin_ws/src/realsense-ros/realsense_camera/srv/CameraConfiguration.srv;/home/nvidia/catkin_ws/src/realsense-ros/realsense_camera/srv/ForcePower.srv;/home/nvidia/catkin_ws/src/realsense-ros/realsense_camera/srv/SetPower.srv;/home/nvidia/catkin_ws/src/realsense-ros/realsense_camera/srv/IsPowered.srv;/home/nvidia/catkin_ws/src/realsense-ros/realsense_camera/srv/GetIMUInfo.srv")

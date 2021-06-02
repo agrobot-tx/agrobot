@@ -16,8 +16,8 @@ def movebase_client():
     #goal.target_pose.pose.position.x = 0.0
     #goal.target_pose.pose.orientation.w = 1.0
     
-    goal_x = -0.3
-    goal_y = -1.55
+    goal_x = 0.0
+    goal_y = 0.0
     goal.target_pose.pose = Pose(Point(goal_x, goal_y, 0.000), Quaternion(0, 0, 0, 1))
     
     

@@ -1,3 +1,4 @@
+set(dynamixel_sdk_SETUP_PY_SETUP_MODULE "distutils.core")
 set(dynamixel_sdk_SETUP_PY_VERSION "3.7.31")
 set(dynamixel_sdk_SETUP_PY_SCRIPTS "")
 set(dynamixel_sdk_SETUP_PY_PACKAGES "dynamixel_sdk")

@@ -9,7 +9,6 @@ if [ -n "$DESTDIR" ] ; then
             /bin/echo "otherwise python's distutils will bork things."
             exit 1
     esac
-    DESTDIR_ARG="--root=$DESTDIR"
 fi
 
 echo_and_run() { echo "+ $@" ; "$@" ; }
@@ -27,7 +26,8 @@ echo_and_run /usr/bin/env \
     CATKIN_BINARY_DIR="/home/nvidia/catkin_ws/build" \
     "/usr/bin/python2" \
     "/home/nvidia/catkin_ws/src/DynamixelSDK/ros/setup.py" \
+     \
     build --build-base "/home/nvidia/catkin_ws/build/DynamixelSDK/ros" \
     install \
-    $DESTDIR_ARG \
+    --root="${DESTDIR-/}" \
     --install-layout=deb --prefix="/home/nvidia/catkin_ws/install" --install-scripts="/home/nvidia/catkin_ws/install/bin"
